@@ -1,0 +1,35 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+div {
+  height: 100%;
+}
+
+header {
+  background: pink;
+  height: 80px;
+}
+
+main {
+  display: grid;
+  background: lightblue;
+  min-height: calc(100% - 80px);
+}
+
+p {
+  /* display: none; */
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cover-effect-mobile-landscape",
+  "version": "1.0.0",
+  "description": "The cover effect of the `main` tag is not lost when rotating the phone portrait to landscape mode.\n\nNeedless to say, it also works on desktop, and in all orientations in mobile.\n\nThe gist is to not rely on viewport units, just 100% and use display: grid.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
